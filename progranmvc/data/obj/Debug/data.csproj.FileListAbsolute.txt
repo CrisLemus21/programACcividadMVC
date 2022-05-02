@@ -1,0 +1,6 @@
+C:\Users\domi2\Desktop\progranmvc\data\obj\Debug\data.csproj.AssemblyReference.cache
+C:\Users\domi2\Desktop\progranmvc\data\obj\Debug\data.csproj.CoreCompileInputs.cache
+C:\Users\domi2\Desktop\progranmvc\data\bin\Debug\data.dll
+C:\Users\domi2\Desktop\progranmvc\data\bin\Debug\data.pdb
+C:\Users\domi2\Desktop\progranmvc\data\obj\Debug\data.dll
+C:\Users\domi2\Desktop\progranmvc\data\obj\Debug\data.pdb

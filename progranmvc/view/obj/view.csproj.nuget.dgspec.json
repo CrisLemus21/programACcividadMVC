@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\domi2\\Desktop\\progranmvc\\view\\view.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\domi2\\Desktop\\progranmvc\\datos\\datos.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\domi2\\Desktop\\progranmvc\\datos\\datos.csproj",
+        "projectName": "datos",
+        "projectPath": "C:\\Users\\domi2\\Desktop\\progranmvc\\datos\\datos.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\domi2\\Desktop\\progranmvc\\Negocio\\Negocio.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\domi2\\Desktop\\progranmvc\\Negocio\\Negocio.csproj",
+        "projectName": "Negocio",
+        "projectPath": "C:\\Users\\domi2\\Desktop\\progranmvc\\Negocio\\Negocio.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\domi2\\Desktop\\progranmvc\\datos\\datos.csproj": {
+                "projectPath": "C:\\Users\\domi2\\Desktop\\progranmvc\\datos\\datos.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\domi2\\Desktop\\progranmvc\\view\\view.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\domi2\\Desktop\\progranmvc\\view\\view.csproj",
+        "projectName": "view",
+        "projectPath": "C:\\Users\\domi2\\Desktop\\progranmvc\\view\\view.csproj",
+        "packagesPath": "C:\\Users\\domi2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\domi2\\Desktop\\progranmvc\\view\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\domi2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\domi2\\Desktop\\progranmvc\\Negocio\\Negocio.csproj": {
+                "projectPath": "C:\\Users\\domi2\\Desktop\\progranmvc\\Negocio\\Negocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
